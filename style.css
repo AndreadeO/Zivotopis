@@ -19,7 +19,6 @@ h3 {
     color: black;
     font-weight: bold;
     font-style: italic;
-
 }
 
 body {
@@ -56,18 +55,15 @@ body {
     border-radius: 20px;
     float: left;
     margin: 0 30px 30px 0;
-
 }
 
 section {
     padding: 30px 10%;
     overflow: auto;
-
 }
 
 .menu li {
     display: inline-block;
-
 }
 
 .menu {
