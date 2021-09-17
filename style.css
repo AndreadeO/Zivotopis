@@ -23,7 +23,7 @@ h3 {
 
 body {
     color: black;
-    background-color: rgb(178, 200, 209);
+    background-color: rgb(234, 238, 238);
     line-height: 1.5;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,24 +38,52 @@ body {
 
 .pracovni_zkusenosti,
 .dalsi_vzdelani {
-    background-color: rgb(178, 200, 209);
+    background-color: rgb(234, 238, 238);
 }
 
 .paticka {
-    background-color: black;
+    background-color: grey;
     color: white;
     text-align: center;
     padding: 10px 0;
 }
 
 .foto_osobni_udaje {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     border: 2px solid black;
     border-radius: 20px;
+    float: left;
+    margin: 0 30px 30px 0;
+
 }
 
 section {
     padding: 30px 10%;
+    overflow: auto;
 
+}
+
+.menu li {
+    display: inline-block;
+
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: grey;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-style: italic;
+}
+
+.menu a:hover {
+    background-color: black;
 }
